@@ -22,16 +22,60 @@
 /* Button Steps */
 .current-step-1 .button-step-1 {
     background-color: aqua;
+    color: purple;
 }
 
 .current-step-2 .button-step-2 {
     background-color: aqua;
+    color: purple;
 }
 
 .current-step-3 .button-step-3 {
     background-color: aqua;
+    color: purple;
 }
 
 .current-step-4 .button-step-4 {
     background-color: aqua;
+    color: purple;
+}
+
+/* Legg til spesifikke CSS for de forskjellige stegene */
+
+/* Hele Siden */
+body {
+    background-color: gainsboro;
+}
+
+/* ============ Hele Formen =========== */
+#multi-step-form {
+    display: flex;
+    gap: 100px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* ============ Steg 1 =========== */
+.step-1 {
+}
+
+.step-1 .navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ============ Steg 2 =========== */
+.step-2 {
+
+}
+
+/* ============ Steg 3 =========== */
+.step-3 {
+
+}
+
+/* ============ Steg 4 =========== */
+.step-4 {
+
 }
