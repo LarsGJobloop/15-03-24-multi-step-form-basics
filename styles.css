@@ -1,0 +1,37 @@
+.step {
+    display: none;
+}
+
+/* Steps */
+.current-step-1 .step-1 {
+    display: unset;
+}
+
+.current-step-2 .step-2 {
+    display: unset;
+}
+
+.current-step-3 .step-3 {
+    display: unset;
+}
+
+.current-step-4 .step-4 {
+    display: unset;
+}
+
+/* Button Steps */
+.current-step-1 .button-step-1 {
+    background-color: aqua;
+}
+
+.current-step-2 .button-step-2 {
+    background-color: aqua;
+}
+
+.current-step-3 .button-step-3 {
+    background-color: aqua;
+}
+
+.current-step-4 .button-step-4 {
+    background-color: aqua;
+}
